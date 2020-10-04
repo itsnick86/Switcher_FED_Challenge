@@ -37,10 +37,10 @@ Home Page - Global
     color: #25353a;
     font-weight: bold;
 }
+
 /**********************
 Home Page - Mobile
 **********************/
-
 /* Header Section */
 #HeaderContainer {
     background-image: url("Images/header-image.jpg");
@@ -201,11 +201,12 @@ Home Page - Mobile
     height: auto;
     margin: 10px 8px 10px 0px;
 }
+
 /**********************
 Home Page - Desktop
 **********************/
 @media only screen and (min-width: 990px) {
-/* Header Section - Desktop */
+    /* Header Section - Desktop */
     #HeaderContainer {
         height: 525px;
         background-position: right center;
@@ -262,7 +263,7 @@ Home Page - Desktop
         width: 70px;
     }
 
-/* Services Section - Desktop */
+    /* Services Section - Desktop */
     #ServiceHeader {
         padding-left: 30px;
         max-width: 60%;
@@ -327,7 +328,6 @@ Home Page - Desktop
     
     #MainLogoReverse {
         width: 35%;
-        /* max-width: 175px; */
     }
 
     .footerButton {
