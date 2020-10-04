@@ -15,8 +15,8 @@
     <!-- Header Section -->
     <div id="TopBorder"></div>
     <div id="HeaderContainer">
-      <div class="text-center text-md-left">
-        <img class="mainLogo" src="Images/Main-Logo.png" alt="Schryver main logo with hammer and wrentch">
+      <div class="text-center text-lg-left">
+        <img id="MainLogo" src="Images/Main-Logo.png" alt="Schryver main logo with hammer and wrentch">
       </div>
       <div id="HeaderTextContainer">
         <h1 id="IntroHeaderPrimary" class="yellowText">EXPERTISE</h1>
@@ -25,52 +25,86 @@
       </div>
     </div>
     <!-- Learn/Request Section -->
-    <div id="LearnRequestSection" class="row">
-      <div id="LearnRequestPrimaryCol" class="col-md-6">
-        <h2 class="sectionHeader">HOME IMPROVEMENT, MAINTENANCE, & REPAIR</h2>
-        <p id="LearnRequestParagraph">We understand your growing "To Do" list can fell overwhelming at times. This along with the busy work schedules makes commitments to family and community difficult. We also understand you're invested in the local area. You may even own a local business in the area. Let us help with your business maintenance and repairs.</p>
-        <button class="button LearnMoreButton">LEARN MORE</button>
-        <button class="button RequestServiceButton1">REQUEST SERVICE</button>
-      </div>
-      <div id="LearnRequestSecondaryCol" class="row col-md-6">
-        <img id="VideoImage" src="Images/video-image.jpg" alt="Video about Schryver services.">
-        <img id="PlayButton" src="Images/yellow-play-button.png" alt="Yellow Play Button.">
+    <div class="container">
+      <div id="LearnRequestSection" class="row">
+        <div id="LearnRequestPrimaryCol" class="col-lg-6">
+          <h2 class="sectionHeader">HOME IMPROVEMENT, MAINTENANCE, & REPAIR</h2>
+          <p id="LearnRequestParagraph">We understand your growing "To Do" list can fell overwhelming at times. This along with the busy work schedules makes commitments to family and community difficult. We also understand you're invested in the local area. You may even own a local business in the area. Let us help with your business maintenance and repairs.</p>
+          <button class="button learnMoreButton">LEARN MORE</button>
+          <button class="button requestServiceButton1">REQUEST SERVICE</button>
+        </div>
+        <div id="LearnRequestSecondaryCol" class="row col-lg-6">
+          <img id="VideoImage" src="Images/video-image.jpg" alt="Video about Schryver services.">
+          <img id="PlayButton" src="Images/yellow-play-button.png" alt="Yellow Play Button.">
+        </div>
       </div>
     </div>
     <!-- Services Section -->
     <div id="ServicesSection">
-      <h2 id="ServiceHeader" class="sectionHeader">WHAT CAN OUR HOME IMPROVEMENT PROFESSIONALS DO FOR YOU?</h2>
-      <div id="ServiceCards" class="row">
-        <div class="serviceBackground col-5 col-md-3">
-          <div class="serviceBackgroundColor">
-            <p>REPAIR</p>
+      <div class="container">
+        <h2 id="ServiceHeader" class="sectionHeader col-lg-9">WHAT CAN OUR HOME IMPROVEMENT PROFESSIONALS DO FOR YOU?</h2>
+        <div id="ServiceCards" class="row">
+          <div class="serviceBackground col-5 col-lg-3">
+            <div class="serviceBackgroundColor">
+              <p>REPAIR</p>
+            </div>
+          </div>
+          <div class="serviceBackground col-5 col-lg-3">
+            <div class="serviceBackgroundColor">
+              <p>MAINTENANCE</p>
+            </div>
+          </div>
+          <div class="serviceBackground col-5 col-lg-3">
+            <div class="serviceBackgroundColor">
+              <p>INSTALLATION</p>
+            </div>
+          </div>
+          <div class="serviceBackground col-5 col-lg-3">
+            <div class="serviceBackgroundColor">
+              <p>DRYWALL</p>
+            </div>
+          </div>
+          <div class="serviceBackground col-5 col-lg-3">
+            <div class="serviceBackgroundColor">
+              <p>CARPENTRY</p>
+            </div>
+          </div>
+          <div class="serviceBackground col-5 col-lg-3">
+            <div class="serviceBackgroundColor">
+              <p>ASSEMBLY</p>
+            </div>
           </div>
         </div>
-        <div class="serviceBackground col-5 col-md-3">
-          <div class="serviceBackgroundColor">
-            <p>MAINTENANCE</p>
-          </div>
-        </div>
-        <div class="serviceBackground col-5 col-md-3">
-          <div class="serviceBackgroundColor">
-            <p>INSTALLATION</p>
-          </div>
-        </div>
-        <div class="serviceBackground col-5 col-md-3">
-          <div class="serviceBackgroundColor">
-            <p>DRYWALL</p>
-          </div>
-        </div>
-        <div class="serviceBackground col-5 col-md-3">
-          <div class="serviceBackgroundColor">
-            <p>CARPENTRY</p>
-          </div>
-        </div>
-        <div class="serviceBackground col-5 col-md-3">
-          <div class="serviceBackgroundColor">
-            <p>ASSEMBLY</p>
-          </div>
-        </div>
+      </div>
+    </div>
+    <!-- Accolades Section -->
+    <div id="AccoladesSection" class="container">
+      <h2 id="AccoladesHeader" class="sectionHeader">ACCOLADES</h2>
+      <div id="AccoladesImageSection" class="text-center">
+        <img id="LogoImage3" class="logoImage" src="Images/Logo-3.png" alt="">
+        <img id="LogoImage5" class="logoImage" src="Images/Logo-5.png" alt="">
+        <img id="LogoImage1" class="logoImage" src="Images/Logo-1.png" alt="">
+        <img id="LogoImage2" class="logoImage" src="Images/Logo-2.png" alt="">
+        <img id="LogoImage4" class="logoImage" src="Images/Logo-4.png" alt="">
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <div id="FooterSection">
+          <div class="row">
+            <div id="FooterCol1" class="col-lg-6 text-center text-lg-left">
+              <img id="MainLogoReverse" src="Images/Logo-Reverse.png" alt="">
+            </div>
+            <div id="FooterCol2" class="col-lg-6 text-center text-lg-right">
+              <button class="button footerButton learnMoreButton">LEARN MORE</button>
+              <button class="button footerButton requestServiceButton2">REQUEST SERVICE</button>
+              <div id="SocialIconSection">
+                <img class="socialIcon" src="Images/social-incons/Facebook.png" alt="">
+                <img class="socialIcon" src="Images/social-incons/Twitter.png" alt="">
+                <img class="socialIcon" src="Images/social-incons/Instagram.png" alt="">
+                <img class="socialIcon" src="Images/social-incons/YouTube.png" alt="">
+                <img class="socialIcon" src="Images/social-incons/Linkedin.png" alt="">
+              </div>
+            </div>
       </div>
     </div>
     <!-- JavaScript -->
