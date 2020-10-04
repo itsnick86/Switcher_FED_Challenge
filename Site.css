@@ -80,7 +80,6 @@ Home Page - Mobile
     margin: 50px 0px 25px 0px;
 }
 
-
 #LearnRequestParagraph {
     color: #25353a;
     margin: 10px 0px 20px;
@@ -113,8 +112,8 @@ Home Page - Mobile
 
 .serviceBackground {
     background-image: url("Images/services-image.jpg");
+    width: 45%;
     height: auto;
-    width: 100%;
     background-position: right center;
     background-repeat: no-repeat;
     background-size: 110%;
@@ -173,6 +172,14 @@ Home Page - Mobile
     padding: 40px 0px 20px;
 }
 
+#FooterCol1 {
+    width: 100%;
+}
+
+#FooterCol2 {
+    width: 100%;
+}
+
 #MainLogoReverse {
     width: 35%;
     height: auto;
@@ -229,19 +236,28 @@ Home Page - Desktop
         max-width: 400px;
     }
     
+    /* Learn/Request Section - Desktop */
+    #LearnRequestSection {
+        padding-right: 0px;
+    }
+
+    #LearnRequestPrimaryCol,
+    #LearnRequestSecondaryCol {
+        width: 50%;
+    }
+
     #VideoImage {
         display: unset;
         width: 100%;
         height: auto;
         margin: 50px 0px 25px;
-        padding-right: 35px;
     }
 
     #PlayButton {
         display: unset;
         position: absolute;
         top: 45%;
-        left: 40%;
+        left: 45%;
         height: 70px;
         width: 70px;
     }
@@ -249,10 +265,11 @@ Home Page - Desktop
 /* Services Section - Desktop */
     #ServiceHeader {
         padding-left: 30px;
+        max-width: 60%;
     }
 
     .serviceBackground {
-        width: 100%;
+        width: 30%;
         height: auto;
     }
 
@@ -300,14 +317,17 @@ Home Page - Desktop
     /* Footer Section - Desktop */
     #FooterCol1 {
         padding: 0px 0px 0px 50px;
+        width: 50%;
     }
 
     #FooterCol2 {
         padding: 0px 50px 0px;
+        width: 50%;
     }
     
     #MainLogoReverse {
         width: 35%;
+        /* max-width: 175px; */
     }
 
     .footerButton {
